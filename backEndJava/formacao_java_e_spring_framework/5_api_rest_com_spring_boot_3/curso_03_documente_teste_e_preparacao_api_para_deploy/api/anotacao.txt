@@ -1,0 +1,17 @@
+# BUILD DO PROJETO
+Para fazer o build de um projeto maven e bem simples, é só irmos no canto
+superior direito da tela, clicar no simbolo do MAVEN, no diretório "Lifecycle"
+em "package", clica com o botão direito do mouse, e seleciona a opção:
+"Run Maven Build".
+O jar do projeto será disponibilizado na pasta "target"
+
+# EXECUTANDO VIA TERMINAL
+Para executar o projeto via terminal e bem simples, é só usar o comando
+$ JAVA -Dspring.profiles.active=prod -jar target/api-0.0.1-SNAPSHOT.jar
+
+OBS:
+-Dspring.profiles.active=prod está dizendo ao spring para olhar para o 
+application-properties de produção que criamos.
+
+# PARA PASSAR O ARQUIVO COM AS VARIAVEIS DE AMBIENTE FICA DA SEGUINTE FORMA
+java -Dspring.profiles.active=prod -DDATASOURCE_URL=jdbc:postgresql://localhost/vollmed_api -DDATASOURCE_USERNAME=postgres -DDATASOURCE_PASSWORD=carros14 -jar target/api-0.0.1-SNAPSHOT.jar

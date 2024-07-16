@@ -1,0 +1,9 @@
+.env
+/resources
+resources/application.properties
+aplication.properties
+*/resources
+*.env
+minha_chave_chatgpt_spring.txt
+*minha_chave_chatgpt_spring.txt
+*/minha_chave_chatgpt_spring.txt

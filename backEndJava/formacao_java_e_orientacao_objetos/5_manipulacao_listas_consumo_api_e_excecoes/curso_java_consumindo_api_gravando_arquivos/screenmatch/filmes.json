@@ -1,0 +1,26 @@
+[
+  {
+    "Nome": "Top Gun",
+    "AnoDeLancamento": 1986,
+    "IncluidoNoPlano": false,
+    "SomaDasAvaliacoes": 0.0,
+    "TotalDeAvaliacoes": 0,
+    "DuracaoEmMinutos": 109
+  },
+  {
+    "Nome": "A Fera na Selva",
+    "AnoDeLancamento": 2017,
+    "IncluidoNoPlano": false,
+    "SomaDasAvaliacoes": 0.0,
+    "TotalDeAvaliacoes": 0,
+    "DuracaoEmMinutos": 90
+  },
+  {
+    "Nome": "Bela",
+    "AnoDeLancamento": 1966,
+    "IncluidoNoPlano": false,
+    "SomaDasAvaliacoes": 0.0,
+    "TotalDeAvaliacoes": 0,
+    "DuracaoEmMinutos": 113
+  }
+]
